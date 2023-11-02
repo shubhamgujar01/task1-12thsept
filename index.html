@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg bg-body-dark" id="navbar">
+
+        <div class="container">
+            <a class="navbar-brand" href="#" style="color: aliceblue; font-weight: 400;">Github</a>
+        </div>
+    </nav>
+
+    <div class="text-center my-4">
+        <div class="row">
+            <div class="col-6" id="search" style="color: aliceblue; text-align: left;">
+               Search
+            </div>
+           
+        </div>
+    </div>
+
+    <div class="text-center my-8">
+        <div class="row">
+            <div class="col-3 mx-4" id="notif">
+               
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 mx-4" id="card1">
+               
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 mx-4" id="card2">
+                
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12  mx-4" id="card3">
+               
+            </div>
+
+            <div class="container my-4">
+                <div class="row">
+                    <div class="col-6 mx-4">
+                        
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+  
+
+</body>
+
+<style>
+    #navbar {
+        background-color: #2F3D46 !important;
+    }
+
+    .container {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .col-3 {
+        
+        background-color: #353535;
+        border-radius: 10px;
+        height: 70vh;
+    }
+
+    #card1{
+        background-color: #353535;
+        border-radius: 10px;
+        height: 30vh;
+        width: 200px !important;
+    }
+    #card2{
+        background-color: #353535;
+        border-radius: 10px;
+        height: 30vh;
+        width: 200px !important;
+    }
+    #card3{
+        background-color: #353535;
+        border-radius: 10px;
+        height: 30vh;
+        width: 200px !important;
+    }
+
+    #search{
+       background-color: #353535;
+       border-radius: 10px;
+       height: 5vh;
+       width: 50vw !important;
+       position: relative;
+        left: 31% !important;
+        
+    }
+    
+    .col-6{
+        background-color: #353535;
+        border-radius: 10px;
+        height: 30vh;
+        width: 60vw !important;
+        position: relative;
+        left: 15% !important;
+        top: -120%;
+    }
+
+  
+
+@media only screen and (max-width: 768px) {
+
+    
+  .col-6 {
+    position: relative;
+    top: 0;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+
+    
+    #card2, #card3{
+       margin-top: 30px;
+       position: relative;
+       left: 0;
+       top: -100% !important;
+    }
+    
+    .col-6{
+       
+        width: 380px !important;
+        position: relative;
+        left: 0 !important;
+        margin: 0 !important;
+        right: 10% !important;
+    }
+
+    #search{
+        left: 20% !important;
+    }
+
+    #card1{
+        left: 0 !important;
+        margin: 0 !important;
+        width: 180px !important;
+    }
+
+
+   
+}
+
+
+body{
+        overflow-x: hidden;
+    }
+
+
+
+
+  
+</style>
+
+</html>
